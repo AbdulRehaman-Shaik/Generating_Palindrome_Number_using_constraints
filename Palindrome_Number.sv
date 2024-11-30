@@ -1,8 +1,10 @@
+//Q) Write a constraint to generate Palindrome Number between [0:1000]
+
 class transaction;
   rand int num;
   rand int a;
   
-  constraint c1{num inside {[100 : 1000]};}
+  constraint c1{num inside {[0 : 1000]};}
   constraint c2{ a == palindrome_num(num);}
   
   function int palindrome_num(int b);
