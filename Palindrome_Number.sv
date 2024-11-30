@@ -1,4 +1,4 @@
-//Q) Write a constraint to generate Palindrome Number between [0:1000]
+//Q) Write a constraint to generate Palindrome Number ?
 
 class transaction;
   rand int num;
